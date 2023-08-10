@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
-import pyperclip
+# import pyperclip
 import json
 
 FONT_NAME = "Arial"
@@ -22,8 +22,22 @@ def gen_password():
     password = "".join(password_list)
     
     password_input.insert(0, password)
-    pyperclip.copy(password)
-
+    # pyperclip.copy(password)
+# ---------------------------- Find PASSWORD ------------------------------- #
+def search():
+    website = website_input.get()
+    try:
+        with open("data.json") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="error", message="No Data File Found.")
+    else:
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            messagebox.showinfo(title=website, message=f"Email: {email}\nPassword: {password}")
+        else:
+            messagebox.showinfo(title="error", message=f"No details for {website} exists.")
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
     email = email_input.get()
@@ -41,16 +55,23 @@ def save():
     elif len(password) == 0:
         messagebox.showerror(title="Error", message="Fill in password.")
     else:
-        with open("data.json", "r") as data_file:
-            #Read
-            data = json.load(data_file)
-            #Append/Update
-            data.update(new_data)
-            #Write
-            json.dump(new_data, data_file, indent=4)
-        website_input.delete(0, END)
-        password_input.delete(0, END)
-        website_input.focus()
+        try:
+            with open("data.json", "r") as data_file:
+                #Reading old data
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                json.dump(new_data, data_file, indent=4)
+        else:
+            #Updating old data with new data
+            data.update(new_data)    
+            with open("data.json", "w") as data_file:
+                #Saving updated data
+                json.dump(new_data, data_file, indent=4)
+        finally:    
+            website_input.delete(0, END)
+            password_input.delete(0, END)
+            website_input.focus()
 # ---------------------------- UI SETUP ------------------------------- #
 #Window
 window = Tk()
@@ -58,7 +79,7 @@ window.title("Password Manager")
 window.config(width=400, height=400, padx=50, pady=20)
 #Canvas
 canvas = Canvas(width=200, height=200)
-lock_img = PhotoImage(file="logo.png")
+lock_img = PhotoImage(file="./Day_30_Errors_and_JSON/logo.png")
 canvas.create_image(100,100, image=lock_img)
 canvas.grid(column=2, row=1)
 #Website Label
@@ -66,8 +87,11 @@ website_label = Label(text="Website:", font=(FONT_NAME, 10, BOLD))
 website_label.grid(column=1,row=2)
 #Website Textbox
 website_input = Entry()
-website_input.grid(column=2, row=2, columnspan=2, sticky="EW")
+website_input.grid(column=2, row=2, sticky="EW")
 website_input.focus()
+#Search Button
+search_button = Button(text="Search", command=search)
+search_button.grid(column=3, row=2, sticky="EW")
 #Email Label
 email_label = Label(text="Email/Username:", font=(FONT_NAME, 10, BOLD))
 email_label.grid(column=1,row=3)
