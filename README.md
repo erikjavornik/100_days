@@ -1,3 +1,2 @@
-Anything
-
-This should be connected to your git and pushed when we are done.
+# My Python Learning Journey
+This repo is a collection of the code I have written following the Udemy course "100 Days of Code" (https://www.udemy.com/course/100-days-of-code/).
