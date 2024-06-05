@@ -2,6 +2,7 @@
 This repo is a collection of the code I have written following the Udemy course "100 Days of Code" (https://www.udemy.com/course/100-days-of-code/).
 
 # File Guide:
+## Projects using API keys have not been tested and do not contain any API information
 Day 15 Coffee Machine: Create "system" of a coffee machine.
 
 Day 16 OOP Coffee Machine: Redo Day 15 Project in Object Oriented Programing.
@@ -40,3 +41,6 @@ Day 33 API: Introduction to using API keys
 
 Day 34 Quizzler App: Create an app/interface to improve the Quiz Machine (Day 17)
 
+Day 35 Keys: Project check if it will rain in the next 12 hours. Contains info on environment variables to hide sensative info for public code storing (Not completed)
+
+Day 36 Stock Trade: Get stock prices, calculate if the stock value has increased or decreased, if change is more than a certain amount: get news articles relating to why there was a change in the stock price, and send a text message.

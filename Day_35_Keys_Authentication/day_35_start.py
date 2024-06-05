@@ -1,7 +1,11 @@
 import requests
+import os
 
 #Sign-up and enter API key from OpenWeather
-API_KEY = "........."
+#Hides API keys in the environment for uploading code to public
+# Windows command to see environment: 'dir Env:'
+# Create environment variable: In terminal type 'export VAR_NAME=VALUE'
+API_KEY = os.environ.get("OWM_API_KEY")
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 MY_LAT = 40.679597 # Your latitude
 MY_LONG = -73.907776 # Your longitude
