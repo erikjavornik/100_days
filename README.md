@@ -44,3 +44,5 @@ Day 34 Quizzler App: Create an app/interface to improve the Quiz Machine (Day 17
 Day 35 Keys: Project check if it will rain in the next 12 hours. Contains info on environment variables to hide sensative info for public code storing (Not completed)
 
 Day 36 Stock Trade: Get stock prices, calculate if the stock value has increased or decreased, if change is more than a certain amount: get news articles relating to why there was a change in the stock price, and send a text message.
+
+Day 37 Habit Tracking: Create a graph using Pixela API
