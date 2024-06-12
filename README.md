@@ -46,3 +46,5 @@ Day 35 Keys: Project check if it will rain in the next 12 hours. Contains info o
 Day 36 Stock Trade: Get stock prices, calculate if the stock value has increased or decreased, if change is more than a certain amount: get news articles relating to why there was a change in the stock price, and send a text message.
 
 Day 37 Habit Tracking: Create a graph using Pixela API
+
+Day 38 Workout Tracker: Create an app to track exercise based on a user input statement and upload the data to a Google Sheet.
