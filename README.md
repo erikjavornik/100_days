@@ -1,8 +1,8 @@
 # My Python Learning Journey
-This repo is a collection of the code I have written following the Udemy course "100 Days of Code" (https://www.udemy.com/course/100-days-of-code/).
+This repo is a collection of the code I have written/obtained following the Udemy course "100 Days of Code" (https://www.udemy.com/course/100-days-of-code/).
 
 # File Guide:
-## Projects using API keys have not been tested and do not contain any API information
+## Projects using API keys have not been tested and does not contain any API information
 Day 15 Coffee Machine: Create "system" of a coffee machine.
 
 Day 16 OOP Coffee Machine: Redo Day 15 Project in Object Oriented Programing.
@@ -50,3 +50,5 @@ Day 37 Habit Tracking: Create a graph using Pixela API
 Day 38 Workout Tracker: Create an app to track exercise based on a user input statement and upload the data to a Google Sheet.
 
 Day 39 Flight Deal Finder: 
+
+Day 40 Flight Club: Make the project from Day 39 publicly available by 
