@@ -48,3 +48,5 @@ Day 36 Stock Trade: Get stock prices, calculate if the stock value has increased
 Day 37 Habit Tracking: Create a graph using Pixela API
 
 Day 38 Workout Tracker: Create an app to track exercise based on a user input statement and upload the data to a Google Sheet.
+
+Day 39 Flight Deal Finder: 
