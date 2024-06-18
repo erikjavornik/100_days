@@ -49,6 +49,6 @@ Day 37 Habit Tracking: Create a graph using Pixela API
 
 Day 38 Workout Tracker: Create an app to track exercise based on a user input statement and upload the data to a Google Sheet.
 
-Day 39 Flight Deal Finder: 
+Day 39 Flight Deal Finder: Use Amadeus API to find cheap flights.
 
-Day 40 Flight Club: Make the project from Day 39 publicly available by 
+Day 40 Flight Club: Make the project from Day 39 publicly available. Allows users to sign up for email alerts for flight prices.
