@@ -14,6 +14,15 @@ Day 4 Random and Lists: Introduction to Random module and lists.
 
 Day 5 Loops: Introduction to loops.
 
+Day 6 Functions: Introduction to functions.
+
+Day 7 Hangman: First Project - Create a game of Hangman.
+
+Day 8 Functions with Inputs: Introduction to using functions with inputs.
+
+Day 9 Dictionaries and Nesting: Introduction to dictionaries and nesting.
+
+
 Day 15 Coffee Machine: Create "system" of a coffee machine.
 
 Day 16 OOP Coffee Machine: Redo Day 15 Project in Object Oriented Programing.
