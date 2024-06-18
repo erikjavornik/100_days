@@ -2,7 +2,18 @@
 This repo is a collection of the code I have written/obtained following the Udemy course "100 Days of Code" (https://www.udemy.com/course/100-days-of-code/).
 
 # File Guide:
-## Projects using API keys have not been tested and does not contain any API information
+## Days 1-15 did not utilize an IDE. Includes notes taken and coding examples. Projects using API keys have not been tested and does not contain any API information.
+
+Day 1 Variables: Introductory notes to variables, printing, commenting, and debugging.
+
+Day 2 Data Types: Introductory notes to different data types, math operations, and f-strings.
+
+Day 3 Logical Operators: if-else statements, comparison operators, and scope.
+
+Day 4 Random and Lists: Introduction to Random module and lists.
+
+Day 5 Loops: Introduction to loops.
+
 Day 15 Coffee Machine: Create "system" of a coffee machine.
 
 Day 16 OOP Coffee Machine: Redo Day 15 Project in Object Oriented Programing.
@@ -52,3 +63,5 @@ Day 38 Workout Tracker: Create an app to track exercise based on a user input st
 Day 39 Flight Deal Finder: Use Amadeus API to find cheap flights.
 
 Day 40 Flight Club: Make the project from Day 39 publicly available. Allows users to sign up for email alerts for flight prices.
+
+Day 41 Introduction to HTML:
