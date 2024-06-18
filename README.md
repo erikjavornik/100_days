@@ -22,6 +22,15 @@ Day 8 Functions with Inputs: Introduction to using functions with inputs.
 
 Day 9 Dictionaries and Nesting: Introduction to dictionaries and nesting.
 
+Day 10 Functions with Outputs: Introduction to returning outputs from functions.
+
+Day 11 Blackjack Project: Create a game of Blackjack.
+
+Day 12 Scope: Introduction to Global and local variables.
+
+Day 13 Debugging: Debugging Exercises.
+
+Day 14 Higher or Lower Game: Create a game to determine which choice has a higher or lower follower count.
 
 Day 15 Coffee Machine: Create "system" of a coffee machine.
 
