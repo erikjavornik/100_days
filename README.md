@@ -83,3 +83,5 @@ Day 39 Flight Deal Finder: Use Amadeus API to find cheap flights.
 Day 40 Flight Club: Make the project from Day 39 publicly available. Allows users to sign up for email alerts for flight prices.
 
 Day 41 Introduction to HTML: Contains 3 exercises and 1 project folder. Excerise folders are pratice using header tags, paragraph tags, and void elements. Project is creating a webpage of watched/favorite movies.
+
+Day 42 Intermediate HTML: Contains 4 exercises and 1 project folder. Excerise folders are pratice using lists, embeding and nesting lists, anchor tags, and images. Project is creating a webpage for someone's birthday.
