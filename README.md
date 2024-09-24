@@ -85,3 +85,5 @@ Day 40 Flight Club: Make the project from Day 39 publicly available. Allows user
 Day 41 Introduction to HTML: Contains 3 exercises and 1 project folder. Excerise folders are pratice using header tags, paragraph tags, and void elements. Project is creating a webpage of watched/favorite movies.
 
 Day 42 Intermediate HTML: Contains 4 exercises and 1 project folder. Excerise folders are pratice using lists, embeding and nesting lists, anchor tags, and images. Project is creating a webpage for someone's birthday.
+
+Day 43 Introduction to CSS: Begin learning about CSS and different methods of applying to HTML elements (Inline, Internal, and External)
