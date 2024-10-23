@@ -3,6 +3,8 @@ This repo is a collection of the code I have written/obtained following the Udem
 
 # File Guide:
 ## Days 1-15 did not utilize an IDE. Includes notes taken and coding examples. Projects using API keys have not been tested and does not contain any API information.
+<details>
+<summary>Beginner: Days 1 - 15 (Intro to Python/Variables/Data Types/Logical Operaters/Loops/Functions)</summary>
 
 Day 1 Variables: Introductory notes to variables, printing, commenting, and debugging.
 
@@ -33,6 +35,9 @@ Day 13 Debugging: Debugging Exercises.
 Day 14 Higher or Lower Game: Create a game to determine which choice has a higher or lower follower count.
 
 Day 15 Coffee Machine: Create "system" of a coffee machine.
+</details>
+<details>
+<summary>Intermediate: Days 16 - 31 (Object Oriented Programming, TKInter, Pandas) </summary>
 
 Day 16 OOP Coffee Machine: Redo Day 15 Project in Object Oriented Programing.
 
@@ -52,29 +57,32 @@ Day 24 Better Snake: Improvements made to Snake Game (Day 20/21) including a sco
 
 Day 25 CSV: Introduction to using pandas. Two projects: 1) Count the number of each squirrel fur color from a CSV and 2) List the US states and output a CSV of the missed states.
 
-Day 26 NATO: Given a word from the user, returns the word spelled out using the NATO phonetic alphabet
+Day 26 NATO: Given a word from the user, returns the word spelled out using the NATO phonetic alphabet.
 
-Day 27 Tkinter GUI: Introduction to using tkinter. Create an app for converting mile and kilometer
+Day 27 Tkinter GUI: Introduction to using tkinter. Create an app for converting mile and kilometer.
 
-Day 28 Pomodoro: Create an app/interface for the Pomodoro study/productivity method
+Day 28 Pomodoro: Create an app/interface for the Pomodoro study/productivity method.
 
-Day 29 Password Manager: Create an app/interface for a password manager
+Day 29 Password Manager: Create an app/interface for a password manager.
 
-Day 30 Errors and Json: Introduction to addressing errors
+Day 30 Errors and Json: Introduction to addressing errors.
 
-Day 31 Flash Cards: Create an app/interface for flash cards. Set-up to learn Japanese kanji
+Day 31 Flash Cards: Create an app/interface for flash cards. Set-up to learn Japanese kanji.
+</details>
 
-Day 32 Email: Introduction to automate email sending for birthdays
+<details>
+<summary>Intermediate+: Days 32 - 58 (HTML, CSS, APIs, Beautiful Soup, ) </summary>
+Day 32 Email: Introduction to automate email sending for birthdays.
 
-Day 33 API: Introduction to using API keys
+Day 33 API: Introduction to using API keys.
 
-Day 34 Quizzler App: Create an app/interface to improve the Quiz Machine (Day 17)
+Day 34 Quizzler App: Create an app/interface to improve the Quiz Machine (Day 17).
 
-Day 35 Keys: Project check if it will rain in the next 12 hours. Contains info on environment variables to hide sensative info for public code storing (Not completed)
+Day 35 Keys: Project check if it will rain in the next 12 hours. Contains info on environment variables to hide sensative info for public code storing (Not completed).
 
 Day 36 Stock Trade: Get stock prices, calculate if the stock value has increased or decreased, if change is more than a certain amount: get news articles relating to why there was a change in the stock price, and send a text message.
 
-Day 37 Habit Tracking: Create a graph using Pixela API
+Day 37 Habit Tracking: Create a graph using Pixela API.
 
 Day 38 Workout Tracker: Create an app to track exercise based on a user input statement and upload the data to a Google Sheet.
 
@@ -86,4 +94,10 @@ Day 41 Introduction to HTML: Contains 3 exercises and 1 project folder. Excerise
 
 Day 42 Intermediate HTML: Contains 4 exercises and 1 project folder. Excerise folders are pratice using lists, embeding and nesting lists, anchor tags, and images. Project is creating a webpage for someone's birthday.
 
-Day 43 Introduction to CSS: Begin learning about CSS and different methods of applying to HTML elements (Inline, Internal, and External)
+Day 43 Introduction to CSS: Begin learning about CSS and different methods of applying to HTML elements (Inline, Internal, and External).
+
+Day 44 Intermediate CSS: More advance CSS projects.
+
+Day 45
+
+</details>
