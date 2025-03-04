@@ -98,6 +98,10 @@ Day 43 Introduction to CSS: Begin learning about CSS and different methods of ap
 
 Day 44 Intermediate CSS: More advance CSS projects.
 
-Day 45
+Day 45 Beautiful Soup: Intro to using Beautiful Soup for web scraping.
+
+Day 46 Spotify Playlist: Project utilizing Beautiful Soup and Billboard Hot 100 to create a Spotify playlist of the Top 100 songs from a specified date. 
+
+Day 47 Amazon Price Checker: Project that sends out an email in item on Amazon drops bellow a chosen price.
 
 </details>
