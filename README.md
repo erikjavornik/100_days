@@ -104,4 +104,5 @@ Day 46 Spotify Playlist: Project utilizing Beautiful Soup and Billboard Hot 100 
 
 Day 47 Amazon Price Checker: Project that sends out an email in item on Amazon drops bellow a chosen price.
 
+Day 54 Intro to Web Development with Flask
 </details>
